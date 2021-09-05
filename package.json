@@ -1,0 +1,26 @@
+{
+  "name": "mychartproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --recursive test/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.1.1",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "supertest": "^6.1.6"
+  }
+}
